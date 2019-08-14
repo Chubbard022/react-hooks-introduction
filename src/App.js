@@ -6,7 +6,7 @@ import Character from './components/Character';
 const App = props => {
  const [state,setState] =  useState({selectedCharacter: 1})
   const [destroy,setDestroy] = useState(false)
-  const [selectedCharacter,setSelectedCharacter] = useState('1')
+  const [selectedCharacter,setSelectedCharacter] = useState(1)
   const [chosenSide,setChosenSide] = useState('light')
 
   const sideHandler = side => {
